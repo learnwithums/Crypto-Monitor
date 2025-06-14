@@ -3,32 +3,31 @@ name: 🪙 Update Crypto README
 on:
   schedule:
     - cron: '0 */6 * * *'  # every 6 hours
-  workflow_dispatch:       # allows manual trigger
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
+      - name: 📥 Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: pip install requests
 
-      - name: Run crypto price updater
+      - name: 🧠 Run crypto price updater
         run: python crypto_inr_info.py
 
-      - name: Commit and Push changes
+      - name: 📝 Commit and Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -x
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -38,4 +37,4 @@ jobs:
             git push
           else
             echo "No changes to commit."
-                    
+
