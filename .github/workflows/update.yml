@@ -19,24 +19,32 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          echo "Installing Python packages..."
+          pip install requests
 
       - name: Run crypto price updater
-        run: python crypto_inr_info.py
+        run: |
+          echo "Running crypto_inr_info.py..."
+          python crypto_inr_info.py
 
       - name: Commit and Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "Configuring git..."
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          echo "Adding README.md to staging..."
           git add README.md
+
+          echo "Checking for changes to commit..."
           if ! git diff --cached --quiet; then
-            git commit -m "🔄 Update README with latest crypto prices [skip ci]"
+            echo "Changes detected, committing..."
+            git commit -m "Update README with latest crypto prices [skip ci]"
+            echo "Pushing to repository..."
             git push
           else
             echo "No changes to commit."
           fi
-          
-
