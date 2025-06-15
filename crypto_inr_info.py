@@ -28,7 +28,7 @@ def get_crypto_data():
 
     data = response.json()
 
-    TRADING_FEE_PERCENT = 1.5  # Total buy+sell fee
+    TRADING_FEE_PERCENT = 0.20  # Total buy+sell fee
     INVESTMENT = 100000
     FEE_AMOUNT = (TRADING_FEE_PERCENT / 100) * INVESTMENT
 
