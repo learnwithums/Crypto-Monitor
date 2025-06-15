@@ -2,8 +2,11 @@ name: Update Crypto README
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *'  # Every 6 hours
   workflow_dispatch:
+
+permissions:
+  contents: write  # Required for scheduled workflows to push changes
 
 jobs:
   update-readme:
@@ -27,21 +30,14 @@ jobs:
       - name: Commit and Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bash -c '
-          echo "Configuring git..."
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          echo "Adding README.md to staging..."
           git add README.md
 
-          echo "Checking for changes to commit..."
           if ! git diff --cached --quiet; then
-            echo "Changes detected, committing..."
             git commit -m "Update README with latest crypto prices [skip ci]"
-            echo "Pushing to repository..."
             git push
           else
             echo "No changes to commit."
-          fi
-        '
