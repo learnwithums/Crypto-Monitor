@@ -14,7 +14,7 @@ def get_crypto_data():
         "vs_currency": "inr",
         "ids": ",".join(coins),
         "order": "market_cap_desc",
-        "per_page": 20,  # fixed to 20 coins max
+        "per_page": 20,
         "page": 1,
         "sparkline": "false"
     }
@@ -28,9 +28,13 @@ def get_crypto_data():
 
     data = response.json()
 
+    TRADING_FEE_PERCENT = 1.5  # Total buy+sell fee
+    INVESTMENT = 100000
+    FEE_AMOUNT = (TRADING_FEE_PERCENT / 100) * INVESTMENT
+
     output = f"# 🪙 Crypto Prices in INR (Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')})\n\n"
-    output += "| Logo | Symbol | Name       | Price (INR) | 4-6h High | 4-6h Low | Profit on ₹1L |\n"
-    output += "|------|--------|------------|-------------|-----------|----------|----------------|\n"
+    output += "| Logo | Symbol | Name       | Price (INR) | Est. High | Est. Low | Gross Profit | Fees | Net Profit | ROI % |\n"
+    output += "|------|--------|------------|-------------|-----------|----------|---------------|------|-------------|--------|\n"
 
     for coin in data:
         symbol = coin['symbol'].upper()
@@ -39,20 +43,25 @@ def get_crypto_data():
         price_str = f"₹{price:,}"
         logo_url = coin['image']
 
-        # Estimate 4–6h range using 30% of the 24h range
         range_delta = (coin['high_24h'] - coin['low_24h']) * 0.3
         est_high = price + (range_delta / 2)
         est_low = price - (range_delta / 2)
 
-        # Profit calculation if ₹1L invested at est_low and sold at est_high
         try:
-            profit = ((est_high - est_low) / est_low) * 100000
+            units = INVESTMENT / est_low
+            gross_return = units * est_high
+            gross_profit = gross_return - INVESTMENT
+            net_profit = gross_profit - FEE_AMOUNT
+            roi_percent = (net_profit / INVESTMENT) * 100
         except ZeroDivisionError:
-            profit = 0
+            gross_profit = 0
+            net_profit = 0
+            roi_percent = 0
 
         output += (
-            f"| ![]({logo_url}) | {symbol:<6} | {name:<10} | {price_str} "
-            f"| ₹{est_high:,.2f} | ₹{est_low:,.2f} | ₹{profit:,.2f} |\n"
+            f"| ![]({logo_url}) | {symbol:<6} | {name:<10} | ₹{price:,.2f} "
+            f"| ₹{est_high:,.2f} | ₹{est_low:,.2f} | ₹{gross_profit:,.2f} "
+            f"| ₹{FEE_AMOUNT:,.2f} | ₹{net_profit:,.2f} | {roi_percent:.2f}% |\n"
         )
 
     return output
@@ -61,5 +70,3 @@ if __name__ == "__main__":
     readme_content = get_crypto_data()
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
-
-
