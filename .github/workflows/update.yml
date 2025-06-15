@@ -32,8 +32,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          echo "Stashing local changes..."
+          git stash
+
           echo "Pulling latest changes..."
           git pull origin main --rebase
+
+          echo "Applying stashed changes..."
+          git stash pop
 
           echo "Staging README.md..."
           git add README.md
