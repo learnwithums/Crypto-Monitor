@@ -32,23 +32,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          echo "Stashing local changes..."
-          git stash
-
-          echo "Pulling latest changes..."
-          git pull origin main --rebase
-
-          echo "Applying stashed changes..."
-          git stash pop
-
           echo "Staging README.md..."
           git add README.md
 
           echo "Checking for changes..."
           if ! git diff --cached --quiet; then
-            echo "Changes found. Committing and pushing..."
+            echo "Changes found. Committing..."
             git commit -m "Update README with latest crypto prices [skip ci]"
-            git push
           else
             echo "No changes to commit."
           fi
+
+          echo "Pulling latest changes with rebase..."
+          git pull origin main --rebase
+
+          echo "Pushing changes..."
+          git push
