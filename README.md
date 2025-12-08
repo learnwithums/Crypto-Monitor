@@ -1,24 +1,24 @@
-# 🪙 Crypto Prices in INR (Updated: 2025-12-08 06:26:57)
+# 🪙 Crypto Prices in INR (Updated: 2025-12-08 12:32:40)
 
 | Logo | Symbol | Name       | Price (INR) | Est. High | Est. Low | Gross Profit | Fees | Net Profit | ROI % |
 |------|--------|------------|-------------|-----------|----------|---------------|------|-------------|--------|
-| ![](https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400) | BTC    | Bitcoin    | ₹8,236,434.00 | ₹8,287,341.15 | ₹8,185,526.85 | ₹1,243.83 | ₹200.00 | ₹1,043.83 | 1.04% |
-| ![](https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628) | ETH    | Ethereum   | ₹281,618.00 | ₹284,372.30 | ₹278,863.70 | ₹1,975.37 | ₹200.00 | ₹1,775.37 | 1.78% |
-| ![](https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756) | SOL    | Solana     | ₹12,156.14 | ₹12,262.33 | ₹12,049.95 | ₹1,762.49 | ₹200.00 | ₹1,562.49 | 1.56% |
-| ![](https://coin-images.coingecko.com/coins/images/1094/large/tron-logo.png?1696502193) | TRX    | TRON       | ₹25.82 | ₹25.87 | ₹25.77 | ₹372.50 | ₹200.00 | ₹172.50 | 0.17% |
-| ![](https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409) | DOGE   | Dogecoin   | ₹12.77 | ₹12.87 | ₹12.67 | ₹1,610.36 | ₹200.00 | ₹1,410.36 | 1.41% |
-| ![](https://coin-images.coingecko.com/coins/images/975/large/cardano.png?1696502090) | ADA    | Cardano    | ₹38.49 | ₹38.85 | ₹38.13 | ₹1,864.45 | ₹200.00 | ₹1,664.45 | 1.66% |
-| ![](https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405) | LINK   | Chainlink  | ₹1,264.10 | ₹1,275.92 | ₹1,252.28 | ₹1,887.76 | ₹200.00 | ₹1,687.76 | 1.69% |
-| ![](https://coin-images.coingecko.com/coins/images/100/large/fmpFRHHQ_400x400.jpg?1735231350) | XLM    | Stellar    | ₹21.83 | ₹21.99 | ₹21.67 | ₹1,509.24 | ₹200.00 | ₹1,309.24 | 1.31% |
-| ![](https://coin-images.coingecko.com/coins/images/2/large/litecoin.png?1696501400) | LTC    | Litecoin   | ₹7,528.19 | ₹7,578.09 | ₹7,478.29 | ₹1,334.50 | ₹200.00 | ₹1,134.50 | 1.13% |
-| ![](https://coin-images.coingecko.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png?1696512369) | AVAX   | Avalanche  | ₹1,234.39 | ₹1,245.33 | ₹1,223.45 | ₹1,788.80 | ₹200.00 | ₹1,588.80 | 1.59% |
-| ![](https://coin-images.coingecko.com/coins/images/11939/large/shiba.png?1696511800) | SHIB   | Shiba Inu  | ₹0.00 | ₹0.00 | ₹0.00 | ₹1,253.41 | ₹200.00 | ₹1,053.41 | 1.05% |
-| ![](https://coin-images.coingecko.com/coins/images/30980/large/Mantle-Logo-mark.png?1739213200) | MNT    | Mantle     | ₹100.59 | ₹101.42 | ₹99.76 | ₹1,662.98 | ₹200.00 | ₹1,462.98 | 1.46% |
-| ![](https://coin-images.coingecko.com/coins/images/12504/large/uniswap-logo.png?1720676669) | UNI    | Uniswap    | ₹510.20 | ₹514.42 | ₹505.98 | ₹1,669.05 | ₹200.00 | ₹1,469.05 | 1.47% |
-| ![](https://coin-images.coingecko.com/coins/images/12171/large/polkadot.png?1696512008) | DOT    | Polkadot   | ₹192.91 | ₹194.21 | ₹191.61 | ₹1,360.60 | ₹200.00 | ₹1,160.60 | 1.16% |
-| ![](https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776) | PEPE   | Pepe       | ₹0.00 | ₹0.00 | ₹0.00 | ₹2,057.98 | ₹200.00 | ₹1,857.98 | 1.86% |
-| ![](https://coin-images.coingecko.com/coins/images/25751/large/kaspa-icon-exchanges.png?1696524837) | KAS    | Kaspa      | ₹4.75 | ₹4.80 | ₹4.70 | ₹2,235.23 | ₹200.00 | ₹2,035.23 | 2.04% |
-| ![](https://coin-images.coingecko.com/coins/images/26455/large/Aptos-Network-Symbol-Black-RGB-1x.png?1761789140) | APT    | Aptos      | ₹158.26 | ₹159.57 | ₹156.95 | ₹1,674.46 | ₹200.00 | ₹1,474.46 | 1.47% |
-| ![](https://coin-images.coingecko.com/coins/images/16547/large/arb.jpg?1721358242) | ARB    | Arbitrum   | ₹18.92 | ₹19.11 | ₹18.73 | ₹1,985.69 | ₹200.00 | ₹1,785.69 | 1.79% |
-| ![](https://coin-images.coingecko.com/coins/images/11636/large/rndr.png?1696511529) | RENDER | Render     | ₹146.82 | ₹148.31 | ₹145.33 | ₹2,053.98 | ₹200.00 | ₹1,853.98 | 1.85% |
-| ![](https://coin-images.coingecko.com/coins/images/25244/large/Optimism.png?1696524385) | OP     | Optimism   | ₹28.59 | ₹28.90 | ₹28.28 | ₹2,174.49 | ₹200.00 | ₹1,974.49 | 1.97% |
+| ![](https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400) | BTC    | Bitcoin    | ₹8,277,312.00 | ₹8,337,906.75 | ₹8,216,717.25 | ₹1,474.91 | ₹200.00 | ₹1,274.91 | 1.27% |
+| ![](https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628) | ETH    | Ethereum   | ₹282,907.00 | ₹286,108.30 | ₹279,705.70 | ₹2,289.05 | ₹200.00 | ₹2,089.05 | 2.09% |
+| ![](https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756) | SOL    | Solana     | ₹12,400.69 | ₹12,548.44 | ₹12,252.94 | ₹2,411.74 | ₹200.00 | ₹2,211.74 | 2.21% |
+| ![](https://coin-images.coingecko.com/coins/images/1094/large/tron-logo.png?1696502193) | TRX    | TRON       | ₹25.73 | ₹25.78 | ₹25.68 | ₹397.21 | ₹200.00 | ₹197.21 | 0.20% |
+| ![](https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409) | DOGE   | Dogecoin   | ₹12.87 | ₹13.00 | ₹12.74 | ₹1,977.40 | ₹200.00 | ₹1,777.40 | 1.78% |
+| ![](https://coin-images.coingecko.com/coins/images/975/large/cardano.png?1696502090) | ADA    | Cardano    | ₹38.80 | ₹39.20 | ₹38.39 | ₹2,109.65 | ₹200.00 | ₹1,909.65 | 1.91% |
+| ![](https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405) | LINK   | Chainlink  | ₹1,254.03 | ₹1,267.68 | ₹1,240.38 | ₹2,201.18 | ₹200.00 | ₹2,001.18 | 2.00% |
+| ![](https://coin-images.coingecko.com/coins/images/100/large/fmpFRHHQ_400x400.jpg?1735231350) | XLM    | Stellar    | ₹21.90 | ₹22.09 | ₹21.71 | ₹1,727.12 | ₹200.00 | ₹1,527.12 | 1.53% |
+| ![](https://coin-images.coingecko.com/coins/images/2/large/litecoin.png?1696501400) | LTC    | Litecoin   | ₹7,514.14 | ₹7,569.90 | ₹7,458.38 | ₹1,495.30 | ₹200.00 | ₹1,295.30 | 1.30% |
+| ![](https://coin-images.coingecko.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png?1696512369) | AVAX   | Avalanche  | ₹1,233.91 | ₹1,245.46 | ₹1,222.36 | ₹1,890.53 | ₹200.00 | ₹1,690.53 | 1.69% |
+| ![](https://coin-images.coingecko.com/coins/images/11939/large/shiba.png?1696511800) | SHIB   | Shiba Inu  | ₹0.00 | ₹0.00 | ₹0.00 | ₹1,249.76 | ₹200.00 | ₹1,049.76 | 1.05% |
+| ![](https://coin-images.coingecko.com/coins/images/30980/large/Mantle-Logo-mark.png?1739213200) | MNT    | Mantle     | ₹101.19 | ₹102.12 | ₹100.26 | ₹1,849.14 | ₹200.00 | ₹1,649.14 | 1.65% |
+| ![](https://coin-images.coingecko.com/coins/images/12504/large/uniswap-logo.png?1720676669) | UNI    | Uniswap    | ₹511.04 | ₹516.41 | ₹505.67 | ₹2,125.11 | ₹200.00 | ₹1,925.11 | 1.93% |
+| ![](https://coin-images.coingecko.com/coins/images/12171/large/polkadot.png?1696512008) | DOT    | Polkadot   | ₹191.31 | ₹192.91 | ₹189.71 | ₹1,690.51 | ₹200.00 | ₹1,490.51 | 1.49% |
+| ![](https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776) | PEPE   | Pepe       | ₹0.00 | ₹0.00 | ₹0.00 | ₹2,739.37 | ₹200.00 | ₹2,539.37 | 2.54% |
+| ![](https://coin-images.coingecko.com/coins/images/25751/large/kaspa-icon-exchanges.png?1696524837) | KAS    | Kaspa      | ₹4.76 | ₹4.81 | ₹4.71 | ₹2,294.94 | ₹200.00 | ₹2,094.94 | 2.09% |
+| ![](https://coin-images.coingecko.com/coins/images/26455/large/Aptos-Network-Symbol-Black-RGB-1x.png?1761789140) | APT    | Aptos      | ₹158.31 | ₹159.75 | ₹156.87 | ₹1,830.13 | ₹200.00 | ₹1,630.13 | 1.63% |
+| ![](https://coin-images.coingecko.com/coins/images/16547/large/arb.jpg?1721358242) | ARB    | Arbitrum   | ₹19.02 | ₹19.24 | ₹18.80 | ₹2,297.38 | ₹200.00 | ₹2,097.38 | 2.10% |
+| ![](https://coin-images.coingecko.com/coins/images/11636/large/rndr.png?1696511529) | RENDER | Render     | ₹146.97 | ₹148.71 | ₹145.23 | ₹2,396.20 | ₹200.00 | ₹2,196.20 | 2.20% |
+| ![](https://coin-images.coingecko.com/coins/images/25244/large/Optimism.png?1696524385) | OP     | Optimism   | ₹28.83 | ₹29.22 | ₹28.44 | ₹2,764.00 | ₹200.00 | ₹2,564.00 | 2.56% |
